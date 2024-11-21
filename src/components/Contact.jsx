@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope } from 'react-icons/fa';
 const Contact = () => {
   const language = useSelector((state) => state.language.language);
 
-  // Texte en fonction de la langue
+  // text depending the language
   const texts = {
     fr: {
       title: "Contact & Réseaux Sociaux",

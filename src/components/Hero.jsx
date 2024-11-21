@@ -5,7 +5,6 @@ const Hero = () => {
 
   const language = useSelector((state) => state.language.language);
 
-  // Texte en fonction de la langue
   const texts = {
     fr: {
       title: "Développeur Front-End",

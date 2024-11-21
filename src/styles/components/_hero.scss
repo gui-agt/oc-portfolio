@@ -31,10 +31,6 @@
         text-align: center;
         padding-top: 150px;
       }
-
-      @media (max-width: 654px) {
-        // padding-bottom: 30px;
-      }
     }
   
     &__content {
@@ -109,13 +105,13 @@
         }
       }
     
-      // Mode sombre
+      // dark mode
       .dark-mode & {
-        background-color: $background-light; // Couleur de fond en mode sombre
+        background-color: $background-light; // dark mode background
         color: $primary-color;
     
         &::before {
-          border-top-color: rgba(255, 255, 255, 0.8); // bordures en mode sombre
+          border-top-color: rgba(255, 255, 255, 0.8); // dark mode border
           border-bottom-color: rgba(255, 255, 255, 0.8);
         }
     
@@ -124,7 +120,7 @@
           color: $text-color-light;
     
           &::before {
-            border-top-color: $text-color-light; // Bordures blanches au survol
+            border-top-color: $text-color-light; // white border hover
             border-bottom-color: $text-color-light;
           }
         }

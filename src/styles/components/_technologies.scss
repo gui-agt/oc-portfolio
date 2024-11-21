@@ -117,35 +117,28 @@
         color: $text-color-light;
       }
     }
-  
-    // &__grid {
-    //   display: grid;
-    //   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    //   gap: 2rem;
-    //   justify-items: center;
-    // }
 
-    // Configuration de la grille avec un nombre fixe d'icônes par ligne
+    // set up grid for fix icon number
     &__grid {
       display: grid;
-      grid-template-columns: repeat(8, 1fr); /* 8 icônes par ligne */
+      grid-template-columns: repeat(8, 1fr); /* 8 icon per line */
       gap: 2rem;
       justify-items: center;
     }
 
     @media (max-width: 1200px) {
       &__grid {
-        grid-template-columns: repeat(4, 1fr); /* 4 icônes par ligne */
+        grid-template-columns: repeat(4, 1fr); /* 4 icon per line */
       }
     }
 
     @media (max-width: 680px) {
       &__grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 icônes par ligne */
+        grid-template-columns: repeat(2, 1fr); /* 2 icon per line */
       }
     }
 
-  // Icônes centrales et centrées pour les petits écrans
+  // center icon for small devices
     &__item {
       text-align: center;
       text-decoration: none;
