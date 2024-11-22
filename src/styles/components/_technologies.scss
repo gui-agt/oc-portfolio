@@ -135,6 +135,8 @@
     @media (max-width: 680px) {
       &__grid {
         grid-template-columns: repeat(2, 1fr); /* 2 icon per line */
+        padding-right: 2rem;
+        padding-left: 2rem;
       }
     }
 

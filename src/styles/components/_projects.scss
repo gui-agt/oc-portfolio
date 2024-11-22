@@ -66,6 +66,7 @@
       &-description {
         margin-bottom: 1rem;
         color: rgba($text-color, 0.8);
+        text-align: justify;
   
         .dark-mode & {
           color: rgba($text-color-light, 0.8);

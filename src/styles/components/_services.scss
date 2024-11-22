@@ -9,9 +9,14 @@
     padding-right: 3rem;
     padding-left: 3rem;
 
-    @media (max-width: 550px) {
+    @media (max-width: 800px) {
       padding-left: 2rem;
       padding-right: 2rem;
+    }
+
+    @media (max-width: 550px) {
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
   
     .dark-mode & {
@@ -100,6 +105,7 @@
   
       &-description {
         color: rgba($text-color, 0.8);
+        text-align: justify;
   
         .dark-mode & {
           color: rgba($text-color-light, 0.8);

@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaSquareXTwitter, FaEnvelope } from 'react-icons/fa6';
 
 
 const Contact = () => {
@@ -45,7 +45,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="contact__social-link"
             >
-              <FaTwitter />
+              <FaSquareXTwitter />
             </a>
             <a
               href="mailto:guillaumeangot@hotmail.fr"
