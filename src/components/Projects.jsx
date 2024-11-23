@@ -12,8 +12,8 @@ const projects = [
     title: 'Print it',
     image: imgPrintIt,
     description: {
-      fr: 'Ajout de fonctionalités et revue en Javascript',
-      en: 'Adding features and code review in JavaScript',
+      fr: 'Site d\'une imprimerie familiale. Mise à jour HTML et CSS, et ajout de fonctionnalités supplémentaires et éléments dynamiques en Javascript',
+      en: 'Family printing company\'s website: updated HTML and CSS, and addeing additional functionalities and dynamic elements using JavaScript',
     },
     link: 'https://gui-agt.github.io/oc-p5-print-it-js/',
   },
@@ -21,8 +21,8 @@ const projects = [
     title: '724events',
     image: img724events,
     description: {
-      fr: 'Débugger le site d\'une agence événementiel',
-      en: 'Debugging the website of an event agency build in React',
+      fr: 'Débugger le site d\'une agence événementiel avec Javascript, React et ReactDevTools. Ajout et rectification de tests unitaires avec React Testing Library et Jest',
+      en: 'Debugging an event agency\'s website using JavaScript, React and ReactDevTools. Adding and modifying unit tests with React Testing Library and Jest',
     },
     link: 'https://oc-p9-724events.netlify.app/',
   },
@@ -30,8 +30,8 @@ const projects = [
     title: 'Argent Bank',
     image: imgArgentBank,
     description: {
-      fr: 'Implémenter le front-end d\'une application bancaire avec React',
-      en: 'Implementing the front-end of a banking application with React',
+      fr: 'Implémenter le front-end d\'une application bancaire avec React et Redux, utilisation API et modélisatiion des intéractions avec les données et transactions',
+      en: 'Implemented the front-end of a banking application using React and Redux, integrating APIs, and modeling interactions with data and transactions',
     },
     link: 'https://ocargentbank.netlify.app/',
   },
@@ -39,8 +39,8 @@ const projects = [
     title: 'Nina Carducci',
     image: imgNinaCarducci,
     description: {
-      fr: 'Optimisation SEO et amélioration de la performance d\'un portfolio',
-      en: 'SEO optimization and performance improvement of a portfolio',
+      fr: 'Site portfolio de photographe: audit complet, identification problèmes de chargement, optimisation SEO et structure du code, accessibilité et amélioration de la vitesse de chargement et performance',
+      en: 'Photographer\'s portfolio website: comprehensive audit, identification of loading issues, SEO optimization, code structure improvement, accessibility enhancements, and increased loading speed and performance',
     },
     link: 'https://gui-agt.github.io/oc-p8-nina-carducci/',
   },
