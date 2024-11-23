@@ -83,6 +83,12 @@
         &:hover {
           background-color: $secondary-color;
         }
+
+        .dark-mode & {
+          background-color: $background-light; 
+          color: $text-color;
+          font-weight: bold;
+        }
       }
   
       &-title {
