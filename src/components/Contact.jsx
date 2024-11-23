@@ -28,6 +28,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="contact__social-link"
+              aria-label="linkedin-link"
             >
               <FaLinkedin />
             </a>
@@ -36,6 +37,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="contact__social-link"
+              aria-label="github-link"
             >
               <FaGithub />
             </a>
@@ -44,12 +46,14 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="contact__social-link"
+              aria-label="xtwitter-link"
             >
               <FaSquareXTwitter />
             </a>
             <a
               href="mailto:guillaumeangot@hotmail.fr"
               className="contact__social-link"
+              aria-label="email-link"
             >
               <FaEnvelope />
             </a>
